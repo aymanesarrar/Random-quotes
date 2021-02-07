@@ -20,10 +20,16 @@ body {
   background-color: white;
   color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
   font-size: 2rem;
   border: 1px solid black;
   border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    height: 100vh;
+  }
 }
